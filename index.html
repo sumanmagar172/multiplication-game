@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiplication Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 class="game">Multiplication Game</h2>
+    <form class="form" onsubmit="return false;">
+        <h4>Score: <span id="score">0</span></h4>
+        <h1 id="question">Loading question...</h1>
+        <input type="text" id="answer" placeholder="Enter your answer">
+        <span id="err"></span>
+        <button type="button" class="btn" onclick="fun()">Submit</button>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
